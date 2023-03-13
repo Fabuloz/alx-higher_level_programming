@@ -3,10 +3,11 @@
 # Emmanuel A Adeniji
 
 if __name__ == "__main__":
-    """Print the addition of all arguments."""
     import sys
+    leng = len(sys.argv) - 1
+    coun = 0
 
-    total = 0
-    for i in range(len(sys.argv) - 1):
-        total += int(sys.argv[i + 1])
-    print("{}".format(total))
+    for i in range(leng):
+        coun = coun + int(sys.argv[i+1])
+
+    print(coun)
