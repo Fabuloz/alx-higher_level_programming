@@ -1,0 +1,1 @@
+Javascript Obejects Scopes Closures
